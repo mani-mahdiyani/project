@@ -136,6 +136,10 @@ body {
   border-radius: 20px 20px 0px 0px;
 }
 
+.about a {
+  text-decoration: none;
+}
+
 .circle {
   width: 600px;
   height: 600px;
@@ -562,6 +566,12 @@ body {
   .nav-list .nav-item a {
     font-size: 20px;
   }
+  .footer {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 668px) {
   .footer {
     height: 300px;
   }
