@@ -49,6 +49,7 @@ body {
   margin-top: 25px;
   display: inline-block;
   padding: 15px;
+  font-family: "Byekan";
 }
 
 .header .nav-list .nav-item a {
@@ -102,6 +103,10 @@ body {
   margin: 25px;
   box-shadow: 0 0 15px black;
   border-radius: 10px;
+}
+
+.member-item h2 {
+  font-family: "Byekan";
 }
 
 .member-pic {
@@ -322,7 +327,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    height: 230px;
+    height: 300px;
   }
 
   .footer .right {
@@ -368,6 +373,9 @@ body {
 
   .circle .obout-bio {
     font-size: 12px;
+  }
+  .footer {
+    height: 300px;
   }
 }
 
@@ -416,6 +424,9 @@ body {
   .con {
     max-width: 420px;
   }
+  .footer {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -437,6 +448,9 @@ body {
   .con .header p {
     margin-top: 50px;
   }
+  .footer {
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 424px) {
@@ -446,6 +460,9 @@ body {
   .member-item {
     padding: 0px;
     margin: 0px;
+  }
+  .footer {
+    height: 300px;
   }
 }
 
@@ -536,10 +553,16 @@ body {
   .footer .left .text .text-box {
     max-width: 250px;
   }
+  .footer {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .nav-list .nav-item a {
     font-size: 20px;
+  }
+  .footer {
+    height: 300px;
   }
 }
