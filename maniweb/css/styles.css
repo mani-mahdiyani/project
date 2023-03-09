@@ -23,7 +23,7 @@
 /* select other property for body*/
 
 body {
-  font-family: Byekan;
+  font-family: "Byekan";
   background-color: lightgray;
 }
 
@@ -54,6 +54,7 @@ body {
 .header .nav-list .nav-item a {
   text-decoration: none;
   color: inherit;
+  font-family: "Byekan";
 }
 
 .header .nav-list .nav-item a:hover {
