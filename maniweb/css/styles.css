@@ -170,7 +170,6 @@ body {
 .footer {
   background-color: lightgray;
   display: flex;
-  margin-right: 70px;
   align-items: center;
   justify-content: space-between;
   height: 150px;
@@ -227,6 +226,7 @@ body {
   font-family: lalezar;
   padding: 5px;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 .as p:hover {
@@ -557,9 +557,6 @@ body {
   .footer .left .text .text-box {
     max-width: 250px;
   }
-  .footer {
-    height: 300px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -567,7 +564,7 @@ body {
     font-size: 20px;
   }
   .footer {
-    height: 300px;
+    height: 210px;
   }
 }
 
